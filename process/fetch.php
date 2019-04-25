@@ -48,8 +48,8 @@ $html .= <<<SHOW_DATA
         <td> <img src="./userprofile/{$row['photo']}" width="100px" height="100px" class="img-thumbnail"></td>
         
         <td>
-          <button type="button" id="getUserDetails" data-id="{$row['id']} " class="btn btn-sm btn-success">Edit</a>
-          <button type="button" id="deleteUserNow" data-id="{$row['id']}"  class="btn btn-sm btn-danger">Delete</a>
+          <button type="button" id="getUserDetails" data-id="{$row['id']} " class="btn edit-btn btn-sm btn-success">Edit</a>
+          <button type="button" id="deleteUserNow" data-id="{$row['id']}"  class="btn del-btn btn-sm btn-danger">Delete</a>
         </td>     
       </tr>
 SHOW_DATA;

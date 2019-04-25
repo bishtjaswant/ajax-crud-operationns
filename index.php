@@ -7,12 +7,15 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css">
+<link rel="stylesheet" type="text/css" href="./style.css">
     <title>crud_operations_ajax$</title>
   </head>
   <body>
     
-    <div class="container">
-      <h1 class="text-capitalize text-primary text-center">Ajax crud operation</h1>
+    <div class="container-fluid">
+
+
+      <h1 class="text-primary text myheading text-center">Ajax crud operation</h1>
       
       <!--add button-->
       <div class="d-flex justify-content-end">
@@ -22,9 +25,11 @@
       </div>
 
 
-      <h2 class="text-success">ALL DETAILS</h2>
+      <div class="all">
+         <h2 class="text-success">ALL DETAILS</h2>
+      </div>
    
-
+       <img class="img-wallpaper" src="./userprofile/honest.gif" alt="wall paper">
 
       <!-- dynamic data fetching from server -->
       <div id="all_fetch_details">
